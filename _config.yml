@@ -1,81 +1,61 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "https://pixyll.com"
+# Adjust these to reflect your personal information
+title:       Kiana Jafari
+email:       kjafari@stanford.edu
+author:      Kiana
+# Update the description to reflect the purpose of your website
+description: ""
+baseurl:     "" # Leave blank if not hosted in a subdirectory
+url:         "https://ikiana.github.io" # Update with your website URL
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
- - contact.html
+  - index.md
+  - research.md
+  - contact.html
 
 # Google services
 google_verification:
-# Use either direct GA implementation or set up GTM account
-# - using both will skew your data (leave blank to not use at all)
-google_analytics:
+# Set Google Analytics ID if you want to track your site
+google_analytics: ""
 google_tag_manager:
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
-enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
-# Preview image for social media aka og:image and twitter:image
+animated:             true # Enable animations for a more dynamic experience
+show_related_posts:   true # Show related posts to engage visitors
+show_post_footers:    true # Display footers at the end of posts
+show_social_icons:    true # Show social media icons to connect
+ajaxify_contact_form: true # Use AJAX for a better contact form experience
+enable_mathjax: false # Enable if you need MathJax for math equations
+extended_fonts: false # Use if you want to load extra fonts
+enable_anchorjs: true # Enable for easy linking to headings
 post_preview_image: false
 
 # Facebook Page integration
-# (for instant articles and other stuff)
 fb_page: false
 fb_page_id:
 
 # Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: "kiana-comments" # Set Disqus to allow post comments, or leave blank to disable
 
 # Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
 facebook_comments:
 facebook_appid:
-facebook_comments_number: 10
+facebook_comments_number: 5
 
 # Social icons
-github_username:
-reddit_username:
-bitbucket_username:
-stackoverflow_id:
-twitter_username:
-skype_username:
-steam_nickname:
-google_plus_id:
-linkedin_username:
-angellist_username:
-medium_id:
-bitcoin_url:
-paypal_url:
-flattr_button:
-telegram_username:
-vk_id:
+github_username: ikiana # Update with your GitHub username
+#twitter_username: kiana_twitter # Update with your Twitter handle
+#linkedin_username: kiana-linkedin # Update with your LinkedIn username
+#telegram_username: kiana_telegram # Update with your Telegram username
 
 # Post sharing icons
-show_sharing_icons: false
-# Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
+show_sharing_icons: true # Enable sharing icons to increase reach
+# Enable sharing for specific platforms
+share_facebook: true
+share_twitter: true
+share_linkedin: true
 
 text:
   pagination:
@@ -85,13 +65,7 @@ text:
     text:         'Share this post!'
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
     linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
   post:
     updated:        'Updated'
     minute_read:    'minute read'
@@ -107,7 +81,7 @@ text:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  thanks: 'Thanks for contacting me. I will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
