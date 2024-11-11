@@ -5,4 +5,4 @@ permalink: /teaching/
 tags: teaching
 ---
 
-hello
+coming soon
